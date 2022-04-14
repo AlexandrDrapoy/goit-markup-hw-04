@@ -123,10 +123,17 @@ body {
   fill: currentColor;
 }
 
-.contact.link .icon {
+.icon.phone {
+  width: 10px;
+  height: 16px;
+}
+
+.icon.envelope {
   width: 16px;
   height: 12px;
+}
 
+.contact.link .icon {
   margin-right: 10px;
 }
 
@@ -213,13 +220,15 @@ body {
   margin-right: 30px;
 }
 
+
 .section-svg {
   background-color: var(--secondary-bc);
   border-radius: 4px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
   margin-bottom: 30px;
 }
 
@@ -267,8 +276,8 @@ body {
 }
 
 .list-our-team .item-profile {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
